@@ -4,7 +4,7 @@ array = []
 while i < array.length
 
 if yield(array[i]) == true 
-  array << yield(array[i])
+  array << (array[i])
 end
 i +=1 
 end 
