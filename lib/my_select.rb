@@ -5,7 +5,8 @@ while i < array.length
 
 if yield(array[i]) == true 
   array << (array[i])
-end
+  i += 1
+else 
 i +=1 
 end 
 end
