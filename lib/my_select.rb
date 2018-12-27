@@ -9,4 +9,5 @@ if yield(array[i]) == true
 else 
 i +=1 
 end 
+array
 end
