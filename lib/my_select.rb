@@ -4,7 +4,7 @@ array = []
 while i < array.length
 
 if yield(collection[i]) == true 
-  array << yeild(collection[i])
+  array << (collection[i])
 end 
 i += 1
 end
