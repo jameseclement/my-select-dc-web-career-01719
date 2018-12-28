@@ -3,12 +3,11 @@ i = 0
 array = []
 while i < array.length
 
-if yield(array[i]) == true 
-  array << (array[i])
-  i += 1
-else 
-i +=1 
+if yield(collection[i]) == true 
+  array << (collection[i])
 end 
-array
+i += 1
+
 end
+array
 end
